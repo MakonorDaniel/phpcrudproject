@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="js/jquery.js" type="text/javascript"></script>
+</head>
+<body>
+
+<input type="text" name="username" id="username" >
+<input type="button" name="login" value="Submit" onclick="checknow();"> 
+
+<div id="response"></div>
+<script type="text/javascript">
+	function checknow(){
+		
+		var user = $('#username').val();
+		$.get('recover.php',
+			{username:user},
+			function(ball){
+				$('#username').val("");
+				$('#response').html(ball);
+				//alert ("This is the response from recover.php" + ball);
+
+			}
+			);
+		}
+
+
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+.navbar-custom{position:absolute;
+top:0px;
+width:100%}
+.nav a{color: white;
+font-weight:bold;
+font-size:16px
+    }
+.nav li a:hover{color: black;
+}
+.dropdown-menu li a{
+    font-size: 14px;
+    color: white;
+    background: black;
+    font-weight:bold;
+    text-decoration: none
+}
+
+.dropdown-menu li a:hover{
+    color:white;
+    background: blue;
+    font-weight:bold;
+    text-decoration: none
+}
+header{
+    background: url('images/church.jpg');
+    padding: 270px 0;
+    height:600px
+}
+.intro-lead-in{
+    font-size: 30px;
+    font-style: italic;
+    color: white
+}
+.intro-heading{
+    font-size: 40px;
+    font-style: bold;
+    color: white
+}
+.head{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color:gold
+}
+.head:hover{
+    color: silver;
+    text-decoration: none}
+p{
+    font-size: 16px;
+    color: gold
+}
+footer{
+    background: green;
+}
+.control-label{
+    font-size: 16px;
+    color:gold
+}
+li a.quicklinks{
+    font-weight: bold;
+    color:gold
+}
+li a.quicklinks:hover{
+    color:blue;
+    text-decoration: none
+}
